@@ -3,7 +3,6 @@ import { MovieContext } from "./MovieContext";
 import axios from "axios";
 
 export const MovieProvider = ({ children }) => {
-  
 
   return (
     <MovieContext.Provider
